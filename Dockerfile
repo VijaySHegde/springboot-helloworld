@@ -9,6 +9,6 @@ LABEL maintainer="hegdevijay118@gmail.com"
 
 COPY target/*.war /usr/local/tomcat/webapps/
 
-EXPOSE 8091
+EXPOSE 8093
 
 CMD ["catalina.sh", "run"]
