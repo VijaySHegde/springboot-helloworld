@@ -26,7 +26,7 @@ public class HomeControllerTest {
 
     @Test
     public void helloWorld() {
-        getRequest("/")
+        getRequest("/hello")
             .assertStatusCode(OK)
             .assertResponseBody("Hello from GazGeek!");
     }
