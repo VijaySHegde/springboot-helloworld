@@ -6,7 +6,7 @@
     <groupId>com.gazgeek</groupId>
     <artifactId>helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <package>war<package>
+    <packaging>war<packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
